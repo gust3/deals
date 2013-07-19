@@ -9,6 +9,7 @@
     %meta{:content => "", :name => "keywords"}/
     %meta{:content => "", :name => "description"}/
     %link{:href => "style.css", :media => "screen, projection", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/sass.css", :media => "screen, projection", :rel => "stylesheet", :type => "text/css"}/
   %body
     #wrapper
       %header#header
@@ -193,6 +194,30 @@
                         2.
                         %a{:href => "#"} Continue browsing discounts and promotions online
                   #cabinets-layer
+                    %h2 Welcome to your personal account!
+                    %p Personal Cabinet gives you a lot of additional opportunities in the management of their <br> purchases. You can also track the update their favorite companies, more news on the <br>project, send a personal message to companies and make requests for a discount. But<br> that's not all! You get with every purchase accumulate points which you can spend on <br> your own! <br> Use your personal Cabinet, with the menu below.
+                    %hr
+                    #icon-cabinet-wrap
+                      %div{:class => 'icons-cabinet', :id => 'settings'}
+                        %p My settings
+                      %div{:class => 'icons-cabinet', :id => 'orders'}
+                        %p My orders
+                      %div{:class => 'icons-cabinet', :id => 'request'}
+                        %p Request discount
+                      %div{:class => 'icons-cabinet', :id => 'sabs'}
+                        %p Subscription
+                      %div{:class => 'icons-cabinet', :id => 'fav'}
+                        %p Favourites
+                      %div{:class => 'icons-cabinet', :id => 'history'}
+                        %p History
+                      %div{:class => 'icons-cabinet', :id => 'search'}
+                        %p Saved search
+                      %div{:class => 'icons-cabinet', :id => 'message'}
+                        %p My message
+                      %div{:class => 'icons-cabinet', :id => 'loyality'}
+                        %p Loyalty program
+                      %div{:style => 'clear:both;'}
+                      
       / #header
       #content
         %nav#menu
