@@ -561,3 +561,159 @@ h5
     margin:20px 0px 0px 10px
 }
 }
+#cabinets-layer.order
+{
+	background: -moz-linear-gradient(top, #001b4a, #2b486c);
+	background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #001b4a),color-stop(1, #2b486c));
+    background: -o-linear-gradient(top, #001b4a, #2b486c);
+    position:relative;
+    top:auto;
+    left:auto;
+    margin:0 auto;
+    padding:0px;
+    height:40px;
+h2
+{
+    font-size:20px;
+    position:absolute;
+    left:529px;
+    top:8px;
+    margin:0px;
+}
+#back-cab
+{
+    position:absolute;
+    top:-8px;
+}
+#back-cab a
+{
+    color:white;
+    text-decoration:none;
+}
+}
+#after-cabinet-layer
+{
+    width: 1135px;
+    margin:14px auto;
+    font-size:14px;
+    font-weight:bold;
+ul
+{
+    list-style:none;
+    li
+    {
+        float:left;
+        padding:3px;
+        margin-left:8px;
+        color:#0077db;
+    }
+    li.active
+    {
+        background:#0060c4;
+        @include border-radius(5px 5px, 5px 5px);
+        @include box-shadow(#42184D 0px 2px 6px 0px inset);
+        color:white;
+    }
+}
+.for_pag
+{
+    width: 650px;
+    margin:50px auto;
+}
+table{
+@include box-shadow(grey 0px 2px 20px 0px);
+border-collapse:collapse;
+td
+{
+    text-align:center;
+    font-weight:normal;
+    padding:14px 0px 14px 0px;
+}
+th
+{
+    height:37px;
+    background:url($image_dir + 'blue-gradient.jpg');
+    color:#2b2a85;
+    border-bottom:1px solid #73c8ea;
+}
+td
+{
+    background: -moz-linear-gradient(top, #feeffa, #fdeffa);
+	background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #feeffa),color-stop(1, #fdeffa));
+    background: -o-linear-gradient(top, #feeffa, #fdeffa);
+    border-bottom:1px solid #e4c7db;
+}
+tr:hover
+{
+  td
+  {
+    background: -moz-linear-gradient(top, #feeffa, #f9e1f2);
+	background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #feeffa),color-stop(1, #f9e1f2));
+    background: -o-linear-gradient(top, #feeffa, #f9e1f2);    
+   }
+}
+th.th-id
+{
+    width:98px;
+}
+th.th-type
+{
+    width:84px;
+}
+th.th-name
+{
+    width:155px;
+}
+th.th-discount
+{
+    width:87px;
+}
+th.th-quantity
+{
+    width:57px;
+}
+th.th-price
+{
+    width:83px;
+}
+th.th-pm
+{
+    width:126px;
+}
+th.th-seller
+{
+    width:229px;
+}
+th.th-status
+{
+    background:none;
+    width:112px;
+    div
+    {
+        @include border-radius(0px 10px 0px 0px);
+        background:url($image_dir + 'blue-gradient.jpg');
+        width:100%;
+        height:27px;
+        padding-top:10px;
+    }
+}
+th.th-date 
+{
+    background:none;
+    width:98px;
+    div
+    {
+        @include border-radius(10px 0px 0px 0px);
+        background:url($image_dir + 'blue-gradient.jpg');
+        width:100%;
+        height:27px;
+        padding-top:10px;
+    }
+}
+}
+span
+{
+    float:left;
+    padding:3px;
+}
+}
