@@ -283,21 +283,21 @@ $(".register_normal").mouseup(function(){
 })
 
 $(".register_user_normal").mousedown(function(){
-	$(".register_user_normal").css({"background-position":"2px -373px", "height":"60px"})
+	$(".register_user_normal").css({"background-position":"0px -120px", "height":"60px"})
 })
 $(".register_user_normal").mouseup(function(){
 	$(".register_user_normal").css({"background-position":""})
 })
 
 $(".register_company_normal").mousedown(function(){
-	$(".register_company_normal").css({"background-position":"2px -161px", "height":"64px"})
+	$(".register_company_normal").css({"background-position":"0px -132px", "height":"67px"})
 })
 $(".register_company_normal").mouseup(function(){
 	$(".register_company_normal").css({"background-position":""})
 })
 
 $(".demostration_normal").mousedown(function(){
-	$(".demostration_normal").css({"background-position":"2px -550px", "height":"36px"})
+	$(".demostration_normal").css({"background-position":"0px -49px", "height":"50px"})
 })
 $(".demostration_normal").mouseup(function(){
 	$(".demostration_normal").css({"background-position":"", "height":"50px"})

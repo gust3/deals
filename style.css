@@ -593,23 +593,25 @@ height: 265px;
 }
 
 .register_company_activel{
-	background-position: 0 -161px ;
+	background-position: 0 -0px ;
 	width: 261px;
-	height: 53px;
+	height: 67px;
 }
 
 .register_company_normal:hover{
-	background-position: 0 -83px ;
+	background-position: 0 -66px ;
 	width: 275px;
 	height: 67px;
 }
 
 
 .register_company_normal {
-    background-position: 0 0;
+    background-position: 0 0px;
     height: 67px;
-    margin: 16px 0 0 78px;
+    margin: 36px 0 0 48px;
     width: 275px;
+    background-image:url(img/register-comp-button.png);
+    
 }
 
 .register_user_active{
@@ -618,18 +620,19 @@ height: 265px;
 	height: 53px;
 }
 
-.register_user_normal:hover{
-	background-position: 0 -219px ;
+#registrform_wrapper .register_user_normal:hover{
+	background-position: 0  -60px ;
 	width: 225px;
-	height: 41px;
+	height: 61px;
 }
 
 
-.register_user_normal {
-    background-position: 0 -177px;
-    height: 41px;
-    margin: 16px 0 0 70px;
-    width: 202px;
+#registrform_wrapper .register_user_normal {
+    background-position: 0 0px;
+    height: 61px;
+    margin: 36px 0 0 65px;
+    width: 200px;
+    background-image:url(img/register-user-button.png);
 }
 .demostration_active{
 	background-position: 0 -550px ;
@@ -638,19 +641,22 @@ height: 265px;
 }
 
 .demostration_normal:hover{
-	background-position: 0 -490px ;
-	width: 156px;
+	background-position: 0 -49px ;
+	width: 136px;
 	height: 50px;
 }
-
+#registrform_wrapper .demostration_normal 
+{
+  background-image:url(img/dem-button.png);
+}
 
 .demostration_normal {
-    background-position: 0 -434px;
+    background-position: 0px 0px;
     height: 50px;
     position: relative;
-    right: 97px;
-    top: 18px;
-    width: 156px;
+    right: 77px;
+    top: 5px;
+    width: 136px;
 }
 .register_normal:hover{
 	background-position: 0 -649px ;
@@ -760,7 +766,7 @@ padding: 25px 27px;
 .registr_step {
     background: url("img/stepBG.png") no-repeat scroll 0 0 transparent;
     height: 59px;
-    left: 349px;
+    left: 220px;
     position: absolute;
     top: -52px;
    width: 551px;
