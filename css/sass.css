@@ -1057,3 +1057,12 @@
   left: 52px;
   display: block;
 }
+
+/* line 959, ../sass/sass.scss */
+#footer {
+  -webkit-border-radius: 10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  -ms-border-radius: 10px 10px 0px 0px;
+  -o-border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
+}

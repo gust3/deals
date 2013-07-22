@@ -31,23 +31,23 @@
                   .lang_ugol
                   %ul
                     %li
-                      %a{:href => "#"} čeština
+                      %a{:href => "#"} cestina
                     %li
                       %a{:href => "#"} svensk
                     %li
-                      %a{:href => "#"} français
+                      %a{:href => "#"} francais
                     %li
-                      %a{:href => "#"} español
+                      %a{:href => "#"} espanol
                     %li
                       %a{:href => "#"} english
                     %li
-                      %a{:href => "#"} čeština
+                      %a{:href => "#"} cestina
                     %li
                       %a{:href => "#"} svensk
                     %li
-                      %a{:href => "#"} français
+                      %a{:href => "#"} francais
                     %li
-                      %a{:href => "#"} español
+                      %a{:href => "#"} espanol
                 .userBG
                   %a.userData.key{:href => "#"} Login
                   %span or
@@ -192,7 +192,7 @@
                         %a{:href => "#"} Visit your personal account
                         %br/
                         2.
-                        %a{:href => "#"} Continue browsing discounts and promotions online
+                        %a{:href => "#"} Continue browsing discounts and promotions online                  
       / #header
       #content
         %nav#menu
@@ -302,271 +302,244 @@
             %li
               %a{:href => "#"} Z
         / #menuUnder
-        #show
-          %span Show by
-          %ul
+        #cabinets-layer{:class => 'order'}
+          #back-cab 
+            %a{:href => ''}Back to catalog
+          %h2 Loyalty program
+        %div{:id => 'after-cabinet-layer'} 
+          #contacts
+            %h2 Contacts
+            %hr            
+            %ul
+              %a{:href => ''}
+                %li Alphabetic inc.
+              %a{:href => ''}
+                %li Alphabetic inc.
+              %a{:href => ''}
+                %li Alphabetic inc.
+              %a{:href => ''}
+                %li Alphabetic inc.
+              %a{:href => ''}
+                %li Alphabetic inc.
+              %a{:href => ''}
+                %li Alphabetic inc.
+              %a{:href => ''}
+                %li Alphabetic inc.
+              %a{:href => ''}
+                %li Alphabetic inc.
+              %a{:href => ''}
+                %li Alphabetic inc.
+            %hr
+            .link-container
+              %a{:href => ''} View the full message history
+          #company-info Company Info
+          #company-body
+            %img{:src => 'img/emeals.jpg', :alt => 'company EMeals'}
+            %div
+              #name-company EMeals Company
+              .text
+                %p 
+                  Bought discounts: 
+                  %strong 12
+                %p 
+                  Bought discounts: 
+                  %strong 12
+                %p 
+                  Bought discounts: 
+                  %strong 12
+                %p 
+                  Bonus points from this seller: 
+                  %strong 358
+                %p Achieved single discounts
+                %p Achieved permanent discounts
+              #ofisses-box
+                #ofiss
+                  %strong Emeals Company 
+                  (Branch office 1)
+                  .text
+                    Květnového vítězství 620/16 149 00 Praha 4-Chodov, Praha, Czech Republic
+                    Tel.: +420 321 056-31-12 Website: 
+                    %a{:href => ''}emeals.com 
+                    Email: 
+                    %a{:href => ''}mailbox@emeals.com
+                #ofiss
+                  %strong Emeals Company 
+                  (Branch office 1)
+                  .text
+                    Květnového vítězství 620/16 149 00 Praha 4-Chodov, Praha, Czech Republic
+                    Tel.: +420 321 056-31-12 Website: 
+                    %a{:href => ''}emeals.com 
+                    Email: 
+                    %a{:href => ''}mailbox@emeals.com
+                #ofiss
+                  %strong Emeals Company 
+                  (Branch office 1)
+                  .text
+                    Květnového vítězství 620/16 149 00 Praha 4-Chodov, Praha, Czech Republic
+                    Tel.: +420 321 056-31-12 Website: 
+                    %a{:href => ''}emeals.com 
+                    Email: 
+                    %a{:href => ''}mailbox@emeals.com
+          %div{:style => "clear:both;"}
+          %nav.menu
+            %ul
+              %li
+                %a.activepage{:href => "#"} Discounts
+              %li
+                %a.liststyle{:href => "#"} Contacts
+              %li
+                %a.liststyle{:href => "#"} Delivery and payment
+              %li
+                %a.liststyle{:href => "#"} Feedback
+              / li><a href="#" class="liststyle_second lastitem"></a></li
+          %ul#chainger
             %li
-              %a.active{:href => "#"} 10
+              %a.active{:href => "/"} all
             %li
-              %a{:href => "#"} 25
+              %a{:href => "#"} discounts
             %li
-              %a{:href => "#"} 50
+              %a{:href => "#"} coupons
             %li
-              %a{:href => "#"} 100
-        #priceSort
-          %ul
-            %li
-              %a.sprite.linedown{:href => "#"} Price
-            %li
-              %a.sprite.linedown{:href => "#"} Favorites
-            %li
-              %a.sprite.linedown{:href => "#"} Posted
-            %li
-              %a.sprite.linedown{:href => "#"} Brand
-            %li
-              %a.sprite.linedown{:href => "#"} Before closure
-        %br#clrBoth/
-        .coupon
-          .deals
-            %span 65
-            %sup %
-          .statData
-            %span.posted Posted by:
-            %span.postedTime 29.05.2013 / 15:23
-            %span.bought Bought:
-            %span.boughtcount 124
-            %span.onsale On sale:
-            %span.onsalecount 10
-            %span.views Views:
-            %span.viewscount 1089
-          .emaels
-            %a{:href => "#"} EMeals Company
-          .couponIMG
-            %img{:alt => "actideals", :src => "img/couponIMG.jpg"}/
-          .couponwrapper
-            %h2 Up to 65% Off Online Meal Planning from eMeals
-            .coupontext Start 2013 with a year’s worth of weekly shopping lists that showcase flavourful, healthful recipes customized by store, diet, and price
-            .couponcart
-              .couponcarttext Payment options
-              .hr
-              %a{:href => "#"} Visa
-              %a{:href => "#"} Mastercard
-              %a{:href => "#"} PayPal
-              %a{:href => "#"} WebMoney
-              %a{:href => "#"} Bank transfer
-          .price.sprite.prisepage
-            %span.pricetext Your price:
-            .newcost
-              %span.cost $29
-              %sup.costcent 00
-            .oldcost
-              %del
-                %span.oldcostdollars $48
-              %sup.oldcostcent 00
-          .sprite.viewDeal
-            %a{:href => "javascript:void(0)"} View deal
-          .favorites
-            .sprite.hurt
-            %a{:href => "javascript:void(0)"} Add favorites
-        / .coupon
-        .coupon
-          .deals
-            %span 65
-            %sup %
-          .statData
-            %span.posted Posted by:
-            %span.postedTime 29.05.2013 / 15:23
-            %span.bought Bought:
-            %span.boughtcount 124
-            %span.onsale On sale:
-            %span.onsalecount 10
-            %span.views Views:
-            %span.viewscount 1089
-          .emaels
-            %a{:href => "#"} EMeals Company
-          .couponIMG
-            %img{:alt => "actideals", :src => "img/couponIMG.jpg"}/
-          .couponwrapper
-            %h2 Up to 65% Off Online Meal Planning from eMeals
-            .coupontext Start 2013 with a year’s worth of weekly shopping lists that showcase flavourful, healthful recipes customized by store, diet, and price
-            .couponcart
-              .couponcarttext Payment options
-              .hr
-              %a{:href => "#"} Visa
-              %a{:href => "#"} Mastercard
-              %a{:href => "#"} PayPal
-              %a{:href => "#"} WebMoney
-              %a{:href => "#"} Bank transfer
-          .price.sprite.prisepage
-            %span.pricetext Your price:
-            .newcost
-              %span.cost $29
-              %sup.costcent 00
-            .oldcost
-              %del
-                %span.oldcostdollars $48
-              %sup.oldcostcent 00
-          .sprite.viewDeal
-            %a{:href => "javascript:void(0)"} View deal
-          .favorites
-            .sprite.hurt
-            %a{:href => "javascript:void(0)"} Add favorites
-        / .coupon
-        .coupon
-          .deals
-            %span 65
-            %sup %
-          .statData
-            %span.posted Posted by:
-            %span.postedTime 29.05.2013 / 15:23
-            %span.bought Bought:
-            %span.boughtcount 124
-            %span.onsale On sale:
-            %span.onsalecount 10
-            %span.views Views:
-            %span.viewscount 1089
-          .emaels
-            %a{:href => "#"} EMeals Company
-          .couponIMG
-            %img{:alt => "actideals", :src => "img/couponIMG.jpg"}/
-          .couponwrapper
-            %h2 Up to 65% Off Online Meal Planning from eMeals
-            .coupontext Start 2013 with a year’s worth of weekly shopping lists that showcase flavourful, healthful recipes customized by store, diet, and price
-            .couponcart
-              .couponcarttext Payment options
-              .hr
-              %a{:href => "#"} Visa
-              %a{:href => "#"} Mastercard
-              %a{:href => "#"} PayPal
-              %a{:href => "#"} WebMoney
-              %a{:href => "#"} Bank transfer
-          .price.sprite.prisepage
-            %span.pricetext Your price:
-            .newcost
-              %span.cost $29
-              %sup.costcent 00
-            .oldcost
-              %del
-                %span.oldcostdollars $48
-              %sup.oldcostcent 00
-          .sprite.viewDeal
-            %a{:href => "javascript:void(0)"} View deal
-          .favorites
-            .sprite.hurt
-            %a{:href => "javascript:void(0)"} Add favorites
-        / .coupon
-        .coupon
-          .deals
-            %span 65
-            %sup %
-          .statData
-            %span.posted Posted by:
-            %span.postedTime 29.05.2013 / 15:23
-            %span.bought Bought:
-            %span.boughtcount 124
-            %span.onsale On sale:
-            %span.onsalecount 10
-            %span.views Views:
-            %span.viewscount 1089
-          .emaels
-            %a{:href => "#"} EMeals Company
-          .couponIMG
-            %img{:alt => "actideals", :src => "img/couponIMG.jpg"}/
-          .couponwrapper
-            %h2 Up to 65% Off Online Meal Planning from eMeals
-            .coupontext Start 2013 with a year’s worth of weekly shopping lists that showcase flavourful, healthful recipes customized by store, diet, and price
-            .couponcart
-              .couponcarttext Payment options
-              .hr
-              %a{:href => "#"} Visa
-              %a{:href => "#"} Mastercard
-              %a{:href => "#"} PayPal
-              %a{:href => "#"} WebMoney
-              %a{:href => "#"} Bank transfer
-          .price.sprite.prisepage
-            %span.pricetext Your price:
-            .newcost
-              %span.cost $29
-              %sup.costcent 00
-            .oldcost
-              %del
-                %span.oldcostdollars $48
-              %sup.oldcostcent 00
-          .sprite.viewDeal
-            %a{:href => "javascript:void(0)"} View deal
-          .favorites
-            .sprite.hurt
-            %a{:href => "javascript:void(0)"} Add favorites
-        / .coupon
-        .coupon
-          .deals
-            %span 65
-            %sup %
-          .statData
-            %span.posted Posted by:
-            %span.postedTime 29.05.2013 / 15:23
-            %span.bought Bought:
-            %span.boughtcount 124
-            %span.onsale On sale:
-            %span.onsalecount 10
-            %span.views Views:
-            %span.viewscount 1089
-          .emaels
-            %a{:href => "#"} EMeals Company
-          .couponIMG
-            %img{:alt => "actideals", :src => "img/couponIMG.jpg"}/
-          .couponwrapper
-            %h2 Up to 65% Off Online Meal Planning from eMeals
-            .coupontext Start 2013 with a year’s worth of weekly shopping lists that showcase flavourful, healthful recipes customized by store, diet, and price
-            .couponcart
-              .couponcarttext Payment options
-              .hr
-              %a{:href => "#"} Visa
-              %a{:href => "#"} Mastercard
-              %a{:href => "#"} PayPal
-              %a{:href => "#"} WebMoney
-              %a{:href => "#"} Bank transfer
-          .price.sprite.prisepage
-            %span.pricetext Your price:
-            .newcost
-              %span.cost $29
-              %sup.costcent 00
-            .oldcost
-              %del
-                %span.oldcostdollars $48
-              %sup.oldcostcent 00
-          .sprite.viewDeal
-            %a{:href => "javascript:void(0)"} View deal
-          .favorites
-            .sprite.hurt
-            %a{:href => "javascript:void(0)"} Add favorites
-        / .coupon
-        #pagination
-          .prev
-            %a.prevlink{:href => "#"} ← Previous
-            %br/
-            %a.first{:href => "#"} ← First
-          .nextpage
-            %a{:href => "#"} 1
-            %a.now{:href => "#"} 2
-            %a{:href => "#"} 3
-            %a{:href => "#"} 4
-            %a{:href => "#"} 5
-            %a{:href => "#"} 6
-            %a{:href => "#"} 7
-            %a{:href => "#"} 8
-            %a{:href => "#"} 9
-            %a{:href => "#"} 10
-            %a{:href => "#"} 11
-            %a{:href => "#"} 12
-            %a{:href => "#"} 13
-            %a{:href => "#"} 14
-            %a{:href => "#"} 15
-          .next
-            %a.nextlink{:href => "#"} Next →
-            %br/
-            %a.last{:href => "#"} Last →
-      / #content
+              %a{:href => "akcni.html"} flyers
+          .sort
+            %ul
+              %li
+                %a.active{:href => "#"} All
+              %li
+                %a{:href => "#"} Goods
+              %li
+                %a{:href => "#"} Services
+          .line
+          .coupon
+            .deals
+              %span 65
+              %sup %
+            .statData
+              %span.posted Posted by:
+              %span.postedTime 29.05.2013 / 15:23
+              %span.bought Bought:
+              %span.boughtcount 124
+              %span.onsale On sale:
+              %span.onsalecount 10
+              %span.views Views:
+              %span.viewscount 1089
+            .emaels
+              %a{:href => "#"} EMeals Company
+            .couponIMG
+              %img{:alt => "actideals", :src => "img/couponIMG.jpg"}/
+            .couponwrapper
+              %h2 Up to 65% Off Online Meal Planning from eMeals
+              .coupontext Start 2013 with a year’s worth of weekly shopping lists that showcase flavourful, healthful recipes customized by store, diet, and price
+              .couponcart
+                .couponcarttext Payment options
+                .hr
+                %a{:href => "#"} Visa
+                %a{:href => "#"} Mastercard
+                %a{:href => "#"} PayPal
+                %a{:href => "#"} WebMoney
+                %a{:href => "#"} Bank transfer
+            .price.sprite.prisepage
+              %span.pricetext Your price:
+              .newcost
+                %span.cost $29
+                %sup.costcent 00
+              .oldcost
+                %del
+                  %span.oldcostdollars $48
+                %sup.oldcostcent 00
+            .sprite.viewDeal
+              %a{:href => "javascript:void(0)"} View deal
+            .favorites
+              .sprite.hurt
+              %a{:href => "javascript:void(0)"} Add favorites
+          / .coupon
+          .coupon
+            .deals
+              %span 65
+              %sup %
+            .statData
+              %span.posted Posted by:
+              %span.postedTime 29.05.2013 / 15:23
+              %span.bought Bought:
+              %span.boughtcount 124
+              %span.onsale On sale:
+              %span.onsalecount 10
+              %span.views Views:
+              %span.viewscount 1089
+            .emaels
+              %a{:href => "#"} EMeals Company
+            .couponIMG
+              %img{:alt => "actideals", :src => "img/couponIMG.jpg"}/
+            .couponwrapper
+              %h2 Up to 65% Off Online Meal Planning from eMeals
+              .coupontext Start 2013 with a year’s worth of weekly shopping lists that showcase flavourful, healthful recipes customized by store, diet, and price
+              .couponcart
+                .couponcarttext Payment options
+                .hr
+                %a{:href => "#"} Visa
+                %a{:href => "#"} Mastercard
+                %a{:href => "#"} PayPal
+                %a{:href => "#"} WebMoney
+                %a{:href => "#"} Bank transfer
+            .price.sprite.prisepage
+              %span.pricetext Your price:
+              .newcost
+                %span.cost $29
+                %sup.costcent 00
+              .oldcost
+                %del
+                  %span.oldcostdollars $48
+                %sup.oldcostcent 00
+            .sprite.viewDeal
+              %a{:href => "javascript:void(0)"} View deal
+            .favorites
+              .sprite.hurt
+              %a{:href => "javascript:void(0)"} Add favorites
+          / .coupon
+          .coupon
+            .deals
+              %span 65
+              %sup %
+            .statData
+              %span.posted Posted by:
+              %span.postedTime 29.05.2013 / 15:23
+              %span.bought Bought:
+              %span.boughtcount 124
+              %span.onsale On sale:
+              %span.onsalecount 10
+              %span.views Views:
+              %span.viewscount 1089
+            .emaels
+              %a{:href => "#"} EMeals Company
+            .couponIMG
+              %img{:alt => "actideals", :src => "img/couponIMG.jpg"}/
+            .couponwrapper
+              %h2 Up to 65% Off Online Meal Planning from eMeals
+              .coupontext Start 2013 with a year’s worth of weekly shopping lists that showcase flavourful, healthful recipes customized by store, diet, and price
+              .couponcart
+                .couponcarttext Payment options
+                .hr
+                %a{:href => "#"} Visa
+                %a{:href => "#"} Mastercard
+                %a{:href => "#"} PayPal
+                %a{:href => "#"} WebMoney
+                %a{:href => "#"} Bank transfer
+            .price.sprite.prisepage
+              %span.pricetext Your price:
+              .newcost
+                %span.cost $29
+                %sup.costcent 00
+              .oldcost
+                %del
+                  %span.oldcostdollars $48
+                %sup.oldcostcent 00
+            .sprite.viewDeal
+              %a{:href => "javascript:void(0)"} View deal
+            .favorites
+              .sprite.hurt
+              %a{:href => "javascript:void(0)"} Add favorites
+          / .coupon
+        / #content
     / #wrapper
     %footer#footer
       .sprite.logoFooler
@@ -574,7 +547,7 @@
         © 2011 Lumarex, Inc.
         %a{:href => "#"} Terms of Service Privacy Policy Advertise
       .uppage
-        %a{:href => "#"} search top ↑
+        %a{:href => "#"} search top ^
       #foolerLink
         %ul
           %li
