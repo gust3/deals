@@ -1230,7 +1230,7 @@ width: 653px;
 	display:block;
 }
 .newcost {
-    margin: 21px 0 0 58px;
+    margin: 21px 0 0 50px;
 }
 .cost {
     color: #3EA500;
@@ -1247,7 +1247,7 @@ width: 653px;
 }
 
 .oldcost {
-    margin: 0px 0 0 82px;
+    margin: 0px 0 0 70px;
     width: 100px;
 }
 .oldcostdollars {
