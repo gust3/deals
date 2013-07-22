@@ -219,7 +219,12 @@ background: #FFE0F8;
 
 }
 #menu ul li a.lastitem {
-    padding: 11px 16px;
+    padding: 11px 20px !important;
+}
+@-moz-document url-prefix() {
+#menu ul li a.lastitem {
+    padding: 11px 16px !important;
+}
 }
 .uppage {
    
